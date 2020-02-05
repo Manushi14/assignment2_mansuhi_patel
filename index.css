@@ -1,0 +1,71 @@
+ * {
+    box-sizing: border-box;
+  }
+
+  #Header a:hover 
+  {
+      color:white
+  }
+  .welcome{
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+
+  /* .bg-img{
+      background: url("assets/images/nature.lnk");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      min-height: 600px;
+  } */
+
+  #About{
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  #AboutData{
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+    p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+  
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+    }
+
+    @media screen and (max-width: 900px) {
+      .column {
+      width: 50%;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .column {
+      width: 100%;
+      }
+    } 
+    @media screen and (max-width: 568px) {
+      .column {
+      width: 50%;
+      }
+    } 

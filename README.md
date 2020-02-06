@@ -1,7 +1,9 @@
 Responsive-Portfolio
+
 A portfolio template that is responsive to multiple size displays.
 
 Objectives
+
 Create the following pages: index.html, portfolio.html and contact.html.
 
 
